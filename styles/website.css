@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('../fonts/Byekan.ttf') format('trutype'),
+       url('../fonts/Byekan.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'myNextFont';
+  src: url('../fonts/lalezar.ttf') format('truetype'),
+       url('../fonts/lalezar.woff') format('woff');
+}
+
+body{
+  font-family: 'myFont';
+}
+
+.header{
+  height: 600px;
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.header .nav_list{
+  text-align: center;
+}
+
+.header .nav_list .nav_item{
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header .nav_list .nav_item:hover{
+  color: orange;
+}
+
+.header .title{
+  text-align: center;
+  margin-top: 60px;
+  font-size: 4rem;
+}
+
+.header .title span{
+  color: orange;
+}
+
+.header .des{
+  margin: auto;
+  margin-top: 30px;
+  width: 450px;
+  height: 55px;
+  line-height: 55px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.members{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.member-title{
+  margin: 20px 0;
+}
+
+.members .member_list .member_item{
+  list-style-type: none;
+  display: inline-block;
+  width: 350px;
+  margin: 10px;
+  box-shadow: 0 0 15px
+  
+}
+
+.members .member_item .member_pic{
+  width: 100%;
+}
+
+.members .member_item .member_name{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.members .member_item .member_bio{
+  text-align: justify;
+  padding: 15px;
+}
+
+.about{
+  height: 700px;
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  padding: 60px;
+  background-color: #656262;
+  background-blend-mode: multiply;
+}
+
+.about .circle{
+  width: 550px;
+  height: 550px;
+  background-color: rgba(255,255, 255, 0.5);
+  margin: auto;
+  border-radius: 50%;
+  text-align: center;
+  padding: 80px 120px;
+}
+
+.about .circle h2{
+  font-size: 35px;
+}
+
+.about .circle p{
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.footer{
+  height: 180px;
+  background-color: lightgray;
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+.images_container{
+  background-color: gray;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.images_container img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.images_container h3{
+  font-size: 30px;
+  padding-top: 30px;
+}
