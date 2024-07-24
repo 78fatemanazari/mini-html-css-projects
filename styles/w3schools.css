@@ -102,12 +102,12 @@ body{
 }
 
 
-.main_container{
+.html_container{
   height: 550px;
   background-color: #282A35;
 }
 
-.main_container .left{
+.html_container .left{
   width: 50%;
   height: 100%;
   position: absolute;
@@ -115,7 +115,7 @@ body{
   text-align: center;;
 }
 
-.main_container .left .heading{
+.html_container .left .heading{
   padding-top: 100px;
   padding-bottom: 20px;
   font-size: 5rem;
@@ -123,7 +123,7 @@ body{
   color: #fff;
 }
 
-.main_container .left .desc{
+.html_container .left .desc{
   padding-bottom: 10px;
   font-size: 20px;
   font-weight:bold;
@@ -131,7 +131,7 @@ body{
   margin-bottom: 20px;
 }
 
-.main_container .left .btn1{
+.html_container .left .btn1{
   padding: 10px 20px;
   font-size: 18px;
   background-color: #04AA6D;
@@ -141,7 +141,7 @@ body{
   margin: 10px auto;
 }
 
-.main_container .left .btn2{
+.html_container .left .btn2{
   padding: 10px 20px;
   font-size: 18px;
   background-color: #fff;
@@ -150,14 +150,14 @@ body{
   margin: auto;
 }
 
-.main_container .right{
+.html_container .right{
   width: 50%;
   height: 100%;
   position: absolute;
   right: 0;
 }
 
-.main_container .right .sub_section{
+.html_container .right .sub_section{
   width: 500px;
   height: 390px;
   background-color: rgb(230, 224, 224);
@@ -166,17 +166,127 @@ body{
   padding: 20px;
 }
 
-.main_container .right .sub_section .heading{
+.html_container .right .sub_section .heading{
   padding: 10px 0;
 }
 
-.main_container .right .sub_section .code{
+.html_container .right .sub_section .code{
   background-color: #fff;
   padding: 15px;
   border-left: 3px solid #04AA6D;
 }
 
-.main_container .right .sub_section .btn{
+.html_container .right .sub_section .btn{
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: #fff;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+}
+
+.css_container{
+  height: 610px;
+  background-color: #FFF4A3;
+}
+
+.css_container .left{
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+
+.css_container .left .heading{
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.css_container .left .desc{
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight:bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.css_container .left .btn1{
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgba(4, 170, 109, 0.8);
+  color: #fff;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.css_container .left .btn1:hover{
+  background-color: rgb(4 170 109);
+}
+
+.css_container .left .btn2{
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #282A35;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+  margin: 20px auto;
+  color: #fff;
+  cursor: pointer;
+}
+
+.css_container .left .btn2:hover{
+  background-color: rgb(0, 0, 0);
+}
+
+.css_container .left .btn3{
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgba(255, 179, 187, 0.8) ;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+  margin: auto;
+  color: #000;
+  cursor: pointer;
+}
+
+.css_container .left .btn3:hover{
+  background-color: #ffb3bb;
+}
+
+.css_container .right{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.css_container .right .sub_section{
+  width: 500px;
+  height: 390px;
+  background-color: rgb(230, 224, 224);
+  margin: 90px auto;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.css_container .right .sub_section .heading{
+  padding: 10px 0;
+}
+
+.css_container .right .sub_section .code{
+  background-color: #fff;
+  padding: 15px;
+  border-left: 3px solid #04AA6D;
+}
+
+.css_container .right .sub_section .btn{
   margin-top: 20px;
   font-size: 18px;
   padding: 10px;
