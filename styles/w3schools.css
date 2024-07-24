@@ -44,8 +44,14 @@ body{
   list-style-type: none;
   display: inline-block;
   margin-left: 30px;
-  padding-top: 20px;
+  padding: 18.5px 5px;
   font-size: 20px;
+  cursor: pointer;
+}
+
+.header_container .left ul li:hover{
+  background-color: #04AA6D;
+  color: #fff;
 }
 
 .header_container .right{
