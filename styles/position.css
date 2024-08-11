@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url('../fonts/Byekan.ttf') format('trutype'),
+       url('../fonts/Byekan.woff') format('woff');
+}
+
+body{
+  background-color: rgb(81, 81, 255);
+  font-family: myFont;
+}
+
+
+.container{
+  width: 700px;
+  height: 450px;
+  margin: 50px auto;
+  position: relative;
+  border-radius: 5px 30px 5px 30px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.7);
+}
+
+.card{
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  right: 40px;
+  top: -30px;
+  border-radius: 5px 30px 5px 30px;
+  overflow: hidden;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.7);
+}
+
+.pic{
+  width: 100%;
+}
+
+.bio{
+  width: 350px;
+  text-align: justify;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.info{
+  text-align: center;
+  margin: 4px;
+}

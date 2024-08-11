@@ -1,0 +1,298 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Source Sans 3;
+}
+
+.header_container{
+  height: 60px;
+  position: relative;
+}
+
+.header_container .left{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.header_container .left .logo{
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.header_container .left .logo img{
+  width: 50%;
+  height: 80%;
+  margin-left:20px ;
+  margin-top: 5px;
+}
+.header_container .left ul{
+  width: 85%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.header_container .left ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 30px;
+  padding: 18.5px 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header_container .left ul li:hover{
+  background-color: #04AA6D;
+  color: #fff;
+}
+
+.header_container .right{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.header_container .right .icons{
+  width: 40%;
+  height: 100%;
+  text-align: right;
+  padding: 20px;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+}
+
+.header_container .right .icons i{
+  margin-left: 15px;
+}
+
+.header_container .right .links{
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.header_container .right .links ul{
+  text-align: center;
+}
+
+.header_container .right .links ul li{
+  list-style-type: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 30px;
+  padding: 18px 0;
+}
+
+.header_container .right .links ul li:last-child{
+  padding: 5px 30px;
+  border-radius: 20px 20px 20px 20px;
+  color: #fff;
+  background-color: #04AA6D;
+}
+
+
+.html_container{
+  height: 550px;
+  background-color: #282A35;
+}
+
+.html_container .left{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  text-align: center;;
+}
+
+.html_container .left .heading{
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.html_container .left .desc{
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight:bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.html_container .left .btn1{
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #04AA6D;
+  color: #fff;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+  margin: 10px auto;
+}
+
+.html_container .left .btn2{
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+  margin: auto;
+}
+
+.html_container .right{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.html_container .right .sub_section{
+  width: 500px;
+  height: 390px;
+  background-color: rgb(230, 224, 224);
+  margin: 70px auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.html_container .right .sub_section .heading{
+  padding: 10px 0;
+}
+
+.html_container .right .sub_section .code{
+  background-color: #fff;
+  padding: 15px;
+  border-left: 3px solid #04AA6D;
+}
+
+.html_container .right .sub_section .btn{
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: #fff;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+}
+
+.css_container{
+  height: 610px;
+  background-color: #FFF4A3;
+}
+
+.css_container .left{
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+
+.css_container .left .heading{
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.css_container .left .desc{
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight:bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.css_container .left .btn1{
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgba(4, 170, 109, 0.8);
+  color: #fff;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.css_container .left .btn1:hover{
+  background-color: rgb(4 170 109);
+}
+
+.css_container .left .btn2{
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #282A35;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+  margin: 20px auto;
+  color: #fff;
+  cursor: pointer;
+}
+
+.css_container .left .btn2:hover{
+  background-color: rgb(0, 0, 0);
+}
+
+.css_container .left .btn3{
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgba(255, 179, 187, 0.8) ;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+  margin: auto;
+  color: #000;
+  cursor: pointer;
+}
+
+.css_container .left .btn3:hover{
+  background-color: #ffb3bb;
+}
+
+.css_container .right{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.css_container .right .sub_section{
+  width: 500px;
+  height: 390px;
+  background-color: rgb(230, 224, 224);
+  margin: 90px auto;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.css_container .right .sub_section .heading{
+  padding: 10px 0;
+}
+
+.css_container .right .sub_section .code{
+  background-color: #fff;
+  padding: 15px;
+  border-left: 3px solid #04AA6D;
+}
+
+.css_container .right .sub_section .btn{
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: #fff;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+}
